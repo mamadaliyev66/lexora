@@ -1,0 +1,18 @@
+[
+  {"id":"lex-uz","name":"LEX.UZ","region":"Uzbekistan","area":"National legislation","kind":"Official","url":"https://lex.uz"},
+  {"id":"regulation-uz","name":"REGULATION.GOV.UZ","region":"Uzbekistan","area":"Draft regulations","kind":"Official","url":"https://regulation.gov.uz"},
+  {"id":"sud-uz","name":"SUD.UZ","region":"Uzbekistan","area":"Judiciary","kind":"Official","url":"https://sud.uz"},
+  {"id":"soliq-uz","name":"SOLIQ.UZ","region":"Uzbekistan","area":"Tax administration","kind":"Official","url":"https://soliq.uz"},
+  {"id":"advice-uz","name":"ADVICE.UZ","region":"Uzbekistan","area":"Legal guidance","kind":"Public resource","url":"https://advice.uz"},
+  {"id":"eur-lex","name":"EUR-LEX","region":"European Union","area":"EU law","kind":"Official","url":"https://eur-lex.europa.eu"},
+  {"id":"un-treaties","name":"UN TREATY COLLECTION","region":"International","area":"Treaties","kind":"Official","url":"https://treaties.un.org"},
+  {"id":"icj","name":"ICJ","region":"International","area":"International Court of Justice","kind":"Official","url":"https://www.icj-cij.org"},
+  {"id":"hudoc","name":"HUDOC","region":"Council of Europe","area":"Human rights case law","kind":"Official","url":"https://hudoc.echr.coe.int"},
+  {"id":"wipo-lex","name":"WIPO LEX","region":"International","area":"Intellectual property","kind":"Official","url":"https://wipolex.wipo.int"},
+  {"id":"natlex","name":"NATLEX","region":"International","area":"Labour law","kind":"Official","url":"https://natlex.ilo.org"},
+  {"id":"faolex","name":"FAOLEX","region":"International","area":"Food, agriculture and natural resources","kind":"Official","url":"https://www.fao.org/faolex"},
+  {"id":"ecolex","name":"ECOLEX","region":"International","area":"Environmental law","kind":"Research database","url":"https://www.ecolex.org"},
+  {"id":"worldlii","name":"WORLDLII","region":"International","area":"Comparative legal information","kind":"Research database","url":"http://www.worldlii.org"},
+  {"id":"cornell-lii","name":"CORNELL LII","region":"United States","area":"Legal information","kind":"Academic","url":"https://www.law.cornell.edu"},
+  {"id":"bailii","name":"BAILII","region":"United Kingdom & Ireland","area":"Case law and legislation","kind":"Research database","url":"https://www.bailii.org"}
+]

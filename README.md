@@ -163,4 +163,3 @@ Replace service implementations one at a time:
 ## Deployment
 
 The application is a static Vite SPA. Any host must serve `dist/index.html` for unknown paths so React Router can resolve client routes. Do not expose secrets through `VITE_*` variables; Vite embeds them in public JavaScript.
-

@@ -1,0 +1,22 @@
+import { useCallback, useState } from 'react'
+
+export function useLocalStorage(key, initialValue) {
+  const [value, setValue] = useState(() => {
+    try {
+      const stored = localStorage.getItem(key)
+      return stored === null ? initialValue : JSON.parse(stored)
+    } catch {
+      return initialValue
+    }
+  })
+
+  const update = useCallback((nextValue) => {
+    setValue((current) => {
+      const resolved = typeof nextValue === 'function' ? nextValue(current) : nextValue
+      localStorage.setItem(key, JSON.stringify(resolved))
+      return resolved
+    })
+  }, [key])
+
+  return [value, update]
+}
